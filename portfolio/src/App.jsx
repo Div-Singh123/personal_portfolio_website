@@ -1,9 +1,24 @@
 import React from "react";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+//import About from "./sections/About";
+//import Projects from "./sections/Projects";
+//import Experiences from "./sections/Experiences";
+//import Testimonial from "./sections/Testimonial";
+//import Contact from "./sections/Contact";
+//import Footer from './sections/Footer';
 
 const App = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold underline text-blue-300">Welcome to My Portfolio</h1>
+    <div className="container mx-auto max-w-7xl">
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Experiences />
+      <Testimonial />
+      <Contact />
+      <Footer/>
     </div>
   );
 };
